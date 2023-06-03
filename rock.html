@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,Paper,Scissors Game</title>
+    <link rel="stylesheet" href="rock.css">
+    <link rel="shortcut icon" href="sp-logo.png" type="image/x-icon">  
+    
+</head>
+<body>
+    <div class="div-heading">
+        <h1>ROCK | PAPER | SCISSOR</h1>
+    </div>
+    <div class="items">
+        <button class="img-button" onclick="Play('Rock')"><img src="Rock-emoji.png"></button>
+        <button class="img-button" onclick="Play('Paper')"><img src="Paper-emoji.png"> </button>
+        <button class="img-button" onclick="Play('Scissors')"><img src="Scissors-emoji.png"> </button>
+    </div>
+    <div class="div-buttons">
+        <button class="reset-button" onclick="resetScore('reset')">Reset Score</button>
+        <button class="auto-play-btn" onclick="autoPlay()">Auto Play</button>
+    </div>
+    <p class="match-result  para"></p>
+    <p class="js-moves"></p>
+    <p class="js-scores"></p>
+
+
+    <div class="footer-sec">
+        <footer>
+            <marquee class="copy-right" scrollamount="1.5">&copy 2023 Designed by Sai Teja SP. All rights reserved.</marquee>
+        </footer>
+    </div>
+
+
+    <script src="rock.js"></script>
+</body>
+</html>
